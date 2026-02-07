@@ -1,0 +1,71 @@
+.rise-enabled .cm-editor,
+.rise-enabled .jp-CodeMirrorEditor,
+.rise-enabled .CodeMirror {
+    font-size: 24px !important;
+    line-height: 1.4 !important;
+}
+
+.rise-enabled .jp-OutputArea-output pre,
+.rise-enabled .jp-OutputArea pre,
+.rise-enabled .output pre {
+    font-size: 26px !important;
+    line-height: 1.4 !important;
+}
+
+.reveal pre code,
+.reveal .highlight pre code {
+    font-size: 24px !important;
+}
+
+/* ==================== Markdown / Text Content ==================== */
+.reveal .slides section,
+.reveal .text_cell_render,
+.reveal .jp-RenderedHTMLCommon,
+.reveal .rendered_html {
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+}
+
+/* Paragraphs */
+.reveal p {
+    font-size: 28px !important;
+    margin-bottom: 0.8em;
+}
+
+/* Lists */
+.reveal li,
+.reveal ul,
+.reveal ol {
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+}
+
+/* Headings (adjust ratios as you like) */
+.reveal h1 {
+    font-size: 48px !important;
+    margin-bottom: 0.6em;
+}
+.reveal h2 {
+    font-size: 38px !important;
+    margin-bottom: 0.6em;
+}
+.reveal h3 {
+    font-size: 32px !important;
+    margin-bottom: 0.5em;
+}
+.reveal h4 {
+    font-size: 28px !important;
+}
+
+/* Tables */
+.reveal table,
+.reveal td,
+.reveal th {
+    font-size: 26px !important;
+    padding: 8px 12px;
+}
+
+/* Links */
+.reveal a {
+    font-size: 28px !important;
+}
