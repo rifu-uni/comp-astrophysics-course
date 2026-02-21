@@ -1,0 +1,19 @@
+[workspace]
+authors = ["rifusaki <martinagmejia@gmail.com>"]
+channels = ["conda-forge"]
+name = "comp-astrophysics-course"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+ipykernel = ">=7.2.0,<8"
+ipython = ">=9.10.0,<10"
+numpy = ">=2.3.5,<3"
+matplotlib = ">=3.10.8,<4"
+numba = ">=0.63.1,<0.64"
+sunpy = ">=7.1.0,<8"
+astropy = ">=7.2.0,<8"
+altair = ">=6.0.0,<7"
